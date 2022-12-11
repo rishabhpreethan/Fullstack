@@ -1,16 +1,38 @@
+/*changes background color of body to pink
+selector
+  |
+  |
+  V                                         */
 body{
-    background-color:pink;      /*changes background color to pink*/
+    background-color:pink;
 }
+
+
+/* changes color of all h1 headings to orangered*/
 h1{
     color:orangered;
 }
+
 
 /* selecting heading using unique id*/
 #pig{
     background-color:orange;
 }
 
+
 /*setting element based on its class*/
 .heading{
     color:red;
+}
+
+
+/*to go to only h1 headings of class heading*/
+h1.heading{
+    color:red;
+}
+
+
+/* everything is selected*/
+*{
+    color:magenta;
 }
