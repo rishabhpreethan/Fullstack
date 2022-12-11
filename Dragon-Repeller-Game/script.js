@@ -1,4 +1,4 @@
-//comments here are just as java
+//comments here are the same as java
 
 let xp=0;
 let health=100;
