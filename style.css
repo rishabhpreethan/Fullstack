@@ -1,3 +1,16 @@
 body{
-    background-color:pink;
+    background-color:pink;      /*changes background color to pink*/
+}
+h1{
+    color:orangered;
+}
+
+/* selecting heading using unique id*/
+#pig{
+    background-color:orange;
+}
+
+/*setting element based on its class*/
+.heading{
+    color:red;
 }
