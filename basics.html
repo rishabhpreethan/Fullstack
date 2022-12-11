@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>basics</title>
+    <link rel="stylesheet" href="/Users/rishabh/Documents/github/Fullstack/style.css">
 </head>
 <body>
     <h1 style="color:blue;background-color:black">First Heading</h1>
@@ -24,6 +25,8 @@ same thing
     <a href="https://youtu.be/C4rtrJjXkng" target="_blank">click here</a>
 
     <img src="https://img.freepik.com/premium-vector/cute-pig-cartoon_160606-432.jpg?w=2000" height="200" width="200" alt="pig picture">
+
+
 <!--
     LISTS
 -->
@@ -39,26 +42,75 @@ same thing
     <li>tomato</li>
 </ol>
 
+
+<!--
+    EMAIL
+-->
+<a href="mailto:rishabh.preethan@gmail.com">send me an email</a>
+
+
+<!--
+    TABLES
+-->
+<table>
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>class</th>
+    </tr>
+    <tr>
+        <td>Rishabh</td>
+        <td>20</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>samit</td>
+        <td>20</td>
+        <td>12</td>
+    </tr>
+</table>
+
+
+<!--
+    DIV
+-->
+<div style="color:pink;background-color:purple">
+    <h1>first div</h1>
+    <b>this is bold</b>
+</div>
+<div style="color:purple;background-color:pink" >
+    <h2>another one</h2>
+    <b>another bold text</b>
+</div>
+
+
 <!--
     SYMBOLS
 -->
-
 <p>this is the euro sign &euro;</p>
 <p>this is the copyright sign &#169;</p>
+
 
 <!--
     FORM
 -->
-
-<form>
-    <label for="username">Name</label>
+<form action="form.html" method="POST">
+    <label for="username">rishabh</label>
     <br>
-    <input type="text" name="username" id="username">
+    <input type="radio" name="username" id="username" value="rishabh">
     <br>
-    <label>Age</label>
+    <label for="username2">samit</label>
     <br>
-    <input type="number">
+    <input type="radio" name="username2" id="username2" value="samit">
+    <br>
+    <input type="submit" value="Send">
 </form>
+
+
+<!--
+    IFRAMES
+-->
+<iframe src="https://youtu.be/C4rtrJjXkng" height="500" width="500" style="border:solid">hi</iframe>
 
 </body>
 </html>
