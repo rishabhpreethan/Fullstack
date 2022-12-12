@@ -1,31 +1,37 @@
 body {
-    background-color: darkblue;
+    background-color:black;
 }
 
 #text {
-    background-color: black;
-    color: white;
-    padding: 10px;
+    background-color: palevioletred;
+    color: black;
+    padding: 5px;
+    border-radius:15px;
 }
 
 #game {
     max-width: 500px;
     max-height: 400px;
-    background-color: lightgray;
+    background-color:rgb(248, 154, 170);
     color: white;
     margin: 0 auto;
     padding: 10px;
+    border-radius:25px;
 }
 
 #controls {
     border: 1px black solid;
     padding: 5px;
+    border-radius:10px;
+    border:none;
 }
 
 #stats {
-    border: 1px black solid;
+    border: 1px palevioletred solid;
     color: black;
     padding: 5px;
+    border-radius:10px;
+    border:none;
 }
 
 #monsterStats {
@@ -34,8 +40,17 @@ body {
     color: white;
     padding: 5px;
     background-color: red;
+    border-radius:10px;
+    border:none;
 }
 
 .stat {
     padding-right: 10px;
+    border-radius:10px;
+}
+
+button{
+    border-radius:10px;
+    background-color: palevioletred;
+    border:none;
 }
