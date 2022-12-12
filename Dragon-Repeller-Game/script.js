@@ -249,3 +249,7 @@ function restart(){
 function winGame(){
     update(location[6]);
 }
+
+function hi(){
+    
+}
