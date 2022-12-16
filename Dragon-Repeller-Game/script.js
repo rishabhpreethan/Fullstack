@@ -272,11 +272,11 @@ function easterEgg() {
 }
 
 function pickTwo() {
- pick(2);
+    pick(2);
 }
 
 function pickEight() {
- pick(8);
+    pick(8);
 }
 
 function pick(guess) {
